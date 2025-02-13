@@ -1,0 +1,121 @@
+body{
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    
+}
+.parent{
+height:50px;
+width:100%;
+background-color:#FF9D23;
+margin-top:0px;
+transform: translateY(-20px);
+font-family: "Noto Sans";
+line-height: 50px;
+
+}
+.down{
+    margin: 0px;
+    
+    width:100%;
+    border:1px solid black;
+    position:relative;
+    top:50px;
+    padding:50px 0px;
+}
+
+/* Add this CSS to your stylesheet or within a <style> tag in your HTML */
+.bar{
+    background-color: red;
+    transition: height ease-in-out;
+    transform-origin: bottom; /* Set transform origin to the bottom */
+}
+
+
+
+.down .bars{
+    width:50%;
+    height:auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border:1px solid;
+    margin:auto;
+    
+    
+}
+
+.down .bars .bar1{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+
+}
+.down .bars .bar2{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+
+}
+.down .bars .bar3{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+
+}
+.down .bars .bar4{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+
+}
+.down .bars .bar5{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+
+}
+.down .bars .bar6{
+    border:1px solid;
+    width:30px;
+    background-color: rgb(72, 72, 248);
+    color:rgb(72, 72, 248);
+    margin:0px 10px;
+    height:100px;
+}
+
+.rod{
+    width:60%;
+    height:10px;
+    background-color:black;
+    border:1px solid;
+    margin:auto;
+}
+.form{
+    text-align: center;
+}
+button{
+    height:40px;
+    width:100px;
+    background-color: darkgreen;
+    color:white;
+    outline:none;
+    letter-spacing: 1px;
+    margin:20px;
+    cursor: pointer;
+}
